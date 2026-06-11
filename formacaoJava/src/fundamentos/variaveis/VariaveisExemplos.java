@@ -1,5 +1,4 @@
-package fundamentos;
-import fundamentos.Pessoa;
+package fundamentos.variaveis;
 
 public class VariaveisExemplos {
 

@@ -1,10 +1,10 @@
-package fundamentos;
+package fundamentos.variaveis;
 
 public class Pessoa {
 
-	 private String nome; // variavel de instância
+	 private String nome; // variavel de instância/ cada instância um valor diferente
 	
-	 private static int quantidadePessoas = 0; // variável estática
+	 private static int quantidadePessoas = 0; // variável estática - pertence a classe e possui o mesmo valor para todas instâncias
 	 
 	 public Pessoa (String nome) {
 		 this.nome = nome;
