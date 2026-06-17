@@ -4,7 +4,7 @@
 
 Neste desafio, o objetivo foi processar uma lista de produtos armazenada em uma única `String`, simulando a exportação de um sistema legado de estoque.
 
-O programa deve separar os dados de cada produto, calcular o valor total em estoque e exibir as informações formatadas no console.
+O programa deve separar os dados de cada produto, calcular o valor total em estoque, o produto de maior valor e exibir as informações formatadas no console.
 
 ---
 
@@ -37,6 +37,7 @@ String estoque = "Cadeira Gamer-2-850.00|Mesa de Escritorio-1-1200.50|Teclado Me
 4. O preço unitário deve ser convertido para `double`.
 5. O valor total em estoque é calculado multiplicando a quantidade pelo preço unitário de cada produto.
 6. O valor total deve ser acumulado durante a execução.
+7. Identificar o produto que representa o maior valor financeiro acumulado (`quantidade × preço unitário`).
 
 ---
 
@@ -50,7 +51,7 @@ Produto: Mesa de Escritorio | Quantidade: 1 | Valor: R$ 1200.50
 Produto: Teclado Mecanico | Quantidade: 3 | Valor: R$ 250.00
 Produto: Mouse sem fio | Quantidade: 5 | Valor: R$ 120.00
 
-Valor parado em estoque: R$ 4301.50
+Valor parado em estoque: R$ 4250.50
 
 ---------------FIM----------------
 ```
