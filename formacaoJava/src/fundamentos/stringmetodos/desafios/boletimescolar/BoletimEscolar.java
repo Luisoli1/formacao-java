@@ -19,7 +19,7 @@ public class BoletimEscolar {
 				status = "Aprovado";
 			} else
 				status = "Reprovado";
-			System.out.printf("Aluno: %s | Média: %.2f | Status: %S\n", nome, media, status);
+			System.out.printf("Aluno: %s | Média: %.2f | Status: %S\n ", nome, media, status);
 
 		}
 
