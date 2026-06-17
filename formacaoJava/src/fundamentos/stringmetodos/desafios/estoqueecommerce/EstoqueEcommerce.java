@@ -22,8 +22,10 @@ public class EstoqueEcommerce {
 			double valor = Double.parseDouble(dadosProduto[2]);
 			// Acumula o valor total do estoque
 			valorTotal += valor * quantidade;
+			//variavel para comparar valor total de um determinado produto
 			double valorCompara = valor * quantidade;
 			System.out.printf("Produto: %s | Quantidade: %d | Valor: R$ %.2f\n", nome, quantidade, valor);
+			// verifica se o valor total do produto atual é maior que o anterior, caso sim ele é o produto de maior valor
 			if (valorCompara> valorMaior) {
 				valorMaior = valorCompara;
 				produtoValioso = nome;
