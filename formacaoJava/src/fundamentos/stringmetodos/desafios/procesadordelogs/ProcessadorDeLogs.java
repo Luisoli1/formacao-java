@@ -1,4 +1,4 @@
-package fundamentos.stringmetodos.desafios;
+package fundamentos.stringmetodos.desafios.procesadordelogs;
 
 public class ProcessadorDeLogs {
 
