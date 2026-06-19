@@ -29,6 +29,7 @@ public class MaiorPosicao {
 		}
 		System.out.printf("Maior valor: %.1f \n", maiorNumero);
 		System.out.print("Posição do maior valor: "+ posicao);
+		sc.close();
 	}
 
 }
