@@ -18,7 +18,7 @@ public class TesteFuncionario {
 		f1.matricula = 1234;
 
 		// Esta linha NÃO DEVE compilar (é privada) - descomente para confirmar o erro:
-		// f1.salario = 3000;
+		//f1.salario = 3000;
 
 		// Esta linha também NÃO DEVE compilar (método privado) - descomente para
 		// testar:
