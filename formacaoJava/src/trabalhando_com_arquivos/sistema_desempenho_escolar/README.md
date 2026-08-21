@@ -52,13 +52,14 @@ O programa lê um arquivo `.csv` de entrada contendo o nome dos alunos e 3 notas
 1. Clone o repositório para sua máquina.
 
 2. Abra o projeto na sua IDE Java (IntelliJ, VS Code, Eclipse, etc.).
-
+   
 3. Crie um arquivo chamado `notas.csv` na sua máquina com o seguinte modelo:
 
-    Maria Silva,8.5,7.0,9.0
-    Joao Souza,5.0,6.0,4.5
-    Ana Costa,7.0,7.0,7.0
-    Carlos Pereira,9.0,8.0,10.0
+```csv
+Maria Silva,8.5,7.0,9.0
+Joao Souza,5.0,6.0,4.5
+Ana Costa,7.0,7.0,7.0
+Carlos Pereira,9.0,8.0,10.0
 
 4. Execute a classe `Program.java`.
 
@@ -68,15 +69,16 @@ O programa lê um arquivo `.csv` de entrada contendo o nome dos alunos e 3 notas
 
 ---
 
+```markdown
+
 ## 📄 Exemplo de Saída (`out/resultado.csv`)
 
-    Maria Silva, 8.17, APROVADO
-    Joao Souza, 5.17, REPROVADO
-    Ana Costa, 7.00, APROVADO
-    Carlos Pereira, 9.00, APROVADO
-
-    =====Média total da turma =====
-    Média: 7.33
-
-    === Aluno com maior média =====
-    Carlos Pereira | média: 9.00
+```text
+Maria Silva, 8.17, APROVADO
+Joao Souza, 5.17, REPROVADO
+Ana Costa, 7.00, APROVADO
+Carlos Pereira, 9.00, APROVADO
+=====Média total da turma =====
+Média: 7.33
+=== Aluno com maior média =====
+Carlos Pereira | média: 9.00
