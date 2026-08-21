@@ -55,7 +55,7 @@ O programa lê um arquivo `.csv` de entrada contendo o nome dos alunos e 3 notas
    
 3. Crie um arquivo chamado `notas.csv` na sua máquina com o seguinte modelo:
 
-```csv
+```
 Maria Silva,8.5,7.0,9.0
 Joao Souza,5.0,6.0,4.5
 Ana Costa,7.0,7.0,7.0
@@ -69,7 +69,7 @@ Carlos Pereira,9.0,8.0,10.0
 
 ---
 
-```markdown
+```
 
 ## 📄 Exemplo de Saída (`out/resultado.csv`)
 
